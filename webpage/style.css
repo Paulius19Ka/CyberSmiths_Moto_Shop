@@ -17,9 +17,6 @@ body{
 
     height: 100px;
     width: 100%;
-
-    position: absolute;
-    bottom: 0px;
     
     > div{
         height: 100%;
@@ -49,6 +46,38 @@ body{
         font-size: 18px;
     }
 }
+/* Main */
+main{
+    background-color: var(--background-main);
+    color: var(--font-main);
+
+    min-height: 100vh;
+
+    #hero{
+        background-color: var(--background-card);
+        color: var(--background-footer);
+        padding: 20px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        > div{
+            align-self: center;
+            > h2{
+                font-size: 30px;
+            }
+            > p{
+                font-size: 16px;
+            }
+            > img{
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+}
 
 /* Tablet/desktop */
 @media (min-width: 769px){
@@ -59,6 +88,24 @@ body{
         }
         span{
             font-size: 14px;
+        }
+    }
+    #hero{
+        gap: 100px;
+        .heroDiv{
+            > h2{
+                font-size: 40px;
+            }
+            > p{
+                font-size: 18px;
+            }
+        }
+        .heroPhoto{
+            > img{
+                height: 400px;
+                width: 400px;
+                object-fit: cover;
+            }
         }
     }
 }
