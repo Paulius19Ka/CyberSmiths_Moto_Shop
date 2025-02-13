@@ -1,0 +1,15 @@
+{
+    "motociklai":[
+        {
+            "id": "214",
+            "pavadinimas": "Pavadinimas",
+            "kaina": "Kaina",
+            "metai": "Metai",
+            "variklioTuris": "variklio turis",
+            "variklioGalia": "variklio galia",
+            "spalva": "spalva",
+            "rida": 1000,
+            "nuotrauka": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bmwmotorcycles.com%2Fen%2Fmodels%2Fsport%2Fs1000rr.html&psig=AOvVaw0_tRFqJ5nfXZWgI0S9Ctyh&ust=1739526656640000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjNo_SvwIsDFQAAAAAdAAAAABAE"
+        }
+    ]
+}
