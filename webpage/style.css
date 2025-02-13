@@ -1,6 +1,6 @@
 :root{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
     --background-header: #3A397B;
     --background-main: #1E1D57;
     --background-footer: #171645;
@@ -58,10 +58,108 @@
         text-decoration: none;
     }
 }
+body{
+     margin: 0;
+}
+
+/* footer */
+#footerLinks{
+    background-color: var(--background-footer);
+    color: var(--font-main);
+
+    height: 100px;
+    width: 100%;
+    
+    > div{
+        height: 100%;
+        padding: 0px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        > .socialContacts{
+            display: flex;
+            gap: 10px;
+        }
+    }
+    a{
+        color: var(--font-main);
+        font-size: 25px;
+        transition: linear 0.2s;
+        text-decoration: none;
+    }
+    a:hover{
+        color: var(--background-card);
+    }
+    a:active{
+        color: var(--background-header);
+    }
+    span{
+        font-size: 18px;
+    }
+}
+/* Main */
+main{
+    background-color: var(--background-main);
+    color: var(--font-main);
+
+    min-height: 100vh;
+
+    #hero{
+        background-color: var(--background-card);
+        color: var(--background-footer);
+        padding: 20px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+        > div{
+            align-self: center;
+            > h2{
+                font-size: 30px;
+            }
+            > p{
+                font-size: 16px;
+            }
+            > img{
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Tablet/desktop */
 @media (min-width: 769px){
-    /* body{
-        max-width: fit-content;
-    } */
+    #footerLinks{
+        height: 80px;
+        a{
+            font-size: 20px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+    #hero{
+        gap: 100px;
+        .heroDiv{
+            > h2{
+                font-size: 40px;
+            }
+            > p{
+                font-size: 18px;
+            }
+        }
+        .heroPhoto{
+            > img{
+                height: 400px;
+                width: 400px;
+                object-fit: cover;
+            }
+        }
+    }
     .headerAboutUs{
         padding: 50px 200px ;
         max-width: none;
