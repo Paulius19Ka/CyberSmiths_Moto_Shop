@@ -1,9 +1,64 @@
 :root{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
     --background-header: #3A397B;
     --background-main: #1E1D57;
     --background-footer: #171645;
     --font-main: #ffffff;
     --background-card: #9a98ff;
+}
+body{
+    margin: 0;
+}
+/* footer */
+#footerLinks{
+    background-color: var(--background-footer);
+    color: var(--font-main);
+
+    height: 100px;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0px;
+    
+    > div{
+        height: 100%;
+        padding: 0px 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        > .socialContacts{
+            display: flex;
+            gap: 10px;
+        }
+    }
+    a{
+        color: var(--font-main);
+        font-size: 25px;
+        transition: linear 0.2s;
+        text-decoration: none;
+    }
+    a:hover{
+        color: var(--background-card);
+    }
+    a:active{
+        color: var(--background-header);
+    }
+    span{
+        font-size: 18px;
+    }
+}
+
+/* Tablet/desktop */
+@media (min-width: 769px){
+    #footerLinks{
+        height: 80px;
+        a{
+            font-size: 20px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
 }
