@@ -1,0 +1,9 @@
+:root{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    --background-header: #3A397B;
+    --background-main: #1E1D57;
+    --background-footer: #171645;
+    --font-main: #ffffff;
+    --background-card: #9a98ff;
+}
