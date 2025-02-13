@@ -1,15 +1,75 @@
 {
     "motociklai":[
         {
-            "id": "214",
-            "pavadinimas": "Honda cbr 1000rr",
-            "kaina": "Kaina",
-            "metai": "Metai",
-            "variklioTuris": "variklio turis",
-            "variklioGalia": "variklio galia",
-            "spalva": "spalva",
-            "rida": 1000,
-            "nuotrauka": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bmwmotorcycles.com%2Fen%2Fmodels%2Fsport%2Fs1000rr.html&psig=AOvVaw0_tRFqJ5nfXZWgI0S9Ctyh&ust=1739526656640000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjNo_SvwIsDFQAAAAAdAAAAABAE"
+            "id": "001",
+            "pavadinimas": "SUZUKI GSXR-1000",
+            "kaina": "4000",
+            "metai": "2006",
+            "variklioTuris": "999cc",
+            "variklioGalia": "131kw",
+            "spalva": "juoda",
+            "rida": 180000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00001.jpeg"
+        },{
+            "id": "002",
+            "pavadinimas": "HONDA CBR600RR",
+            "kaina": "2800",
+            "metai": "2004",
+            "variklioTuris": "600cc",
+            "variklioGalia": "87kw",
+            "spalva": "balta",
+            "rida": 800000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00002.jpeg"
+        },{
+            "id": "004",
+            "pavadinimas": "HONDA CBR1000RR",
+            "kaina": "6000",
+            "metai": "2010",
+            "variklioTuris": "999cc",
+            "variklioGalia": "131kw",
+            "spalva": "Ivairiaspalve",
+            "rida": 23000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00004.jpeg"
+        },{
+            "id": "005",
+            "pavadinimas": "HONDA CBR1000RR",
+            "kaina": "4400",
+            "metai": "2009",
+            "variklioTuris": "999cc",
+            "variklioGalia": "131kw",
+            "spalva": "Ivairiaspalve",
+            "rida": 42000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00005.jpeg"
+        },{
+            "id": "006",
+            "pavadinimas": "HONDA CBR500RA",
+            "kaina": "3500",
+            "metai": "2016",
+            "variklioTuris": "500cc",
+            "variklioGalia": "35kw",
+            "spalva": "Ivairiaspalve",
+            "rida": 56000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00007.jpeg"
+        },{
+            "id": "007",
+            "pavadinimas": "HONDA CBR600RR",
+            "kaina": "4600",
+            "metai": "2014",
+            "variklioTuris": "600cc",
+            "variklioGalia": "88kw",
+            "spalva": "Ivairiaspalve",
+            "rida": 14000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00008.jpeg"
+        },{
+            "id": "008",
+            "pavadinimas": "Husqvarna 450FE",
+            "kaina": "4200",
+            "metai": "2017",
+            "variklioTuris": "450cc",
+            "variklioGalia": "45kw",
+            "spalva": "Ivairiaspalve",
+            "rida": 4000,
+            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/IMG_8406.jpeg"
         }
     ]
 }
