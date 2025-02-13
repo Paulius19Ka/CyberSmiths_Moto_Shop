@@ -7,3 +7,71 @@
     --font-main: #ffffff;
     --background-card: #9a98ff;
 }
+
+.headerAboutUs{
+    display: flex;
+    justify-content: center;
+
+    max-width: 575px;
+
+    background-color: var(--background-header);
+    color: var(--font-main);
+
+    padding: 10px;
+
+}
+.mainAboutUs{
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+
+    max-width: 575px;
+    padding: 10px;
+
+    background-color: var(--background-main);
+    color: var(--font-main);
+}
+.footerAboutUs{
+    background-color: var(--background-footer);
+    color: var(--font-main) ;
+
+    max-width: 575px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    > h3 {
+        display: block;
+        justify-content: center;
+    }
+}
+.footerLinksAboutUs{
+    width: 555px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    > a{
+        color: var(--font-main);
+        text-decoration: none;
+    }
+}
+@media (min-width: 769px){
+    /* body{
+        max-width: fit-content;
+    } */
+    .headerAboutUs{
+        padding: 50px 200px ;
+        max-width: none;
+    }
+    .mainAboutUs{
+        padding: 50px 200px ;
+        max-width: fit-content;
+    }
+    .footerAboutUs{
+        padding: 50px 200px ;
+        max-width: none;
+    }
+}
