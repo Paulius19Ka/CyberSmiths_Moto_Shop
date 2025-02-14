@@ -55,10 +55,13 @@ header {
     transform: translateX(0);
   }
 
+#forSale {
+    padding: 20px 50px;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -81,6 +84,7 @@ header {
 .card h3 {
     font-size: 18px;
     margin: 5px 0;
+    color: #171645;
 }
 
 .card h2 {
@@ -226,12 +230,12 @@ main{
     background-color: var(--background-main);
     color: var(--font-main);
 
-    min-height: 100vh;
+    /* min-height: 100vh; */
 
     #hero{
         background-color: var(--background-card);
         color: var(--background-footer);
-        padding: 20px 20px;
+        padding: 20px 50px;
 
         display: flex;
         justify-content: space-between;
@@ -249,6 +253,8 @@ main{
                 height: 200px;
                 width: 200px;
                 object-fit: cover;
+                border-radius: 10px;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             }
         }
     }
@@ -288,7 +294,7 @@ main{
         max-width: none;
     }
     .mainAboutUs{
-        padding: 50px 200px ;
+        padding: 20px 50px ;
         max-width: fit-content;
     }
     .footerAboutUs{
