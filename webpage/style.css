@@ -7,6 +7,54 @@
     --font-main: #ffffff;
     --background-card: #9a98ff;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262631;
+    padding: 10px 20px;
+  }
+  
+  header img {
+    height: 50px; 
+    width: auto;
+  }
+  
+  header nav {
+    position: absolute;
+    top: 70px;           
+    right: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    padding: 10px 20px;
+    transform: translateX(100%); 
+    transition: transform 0.0s
+  }
+  
+  header nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .mygtukas {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .mygtukas img {
+    width: 30px;  
+    height: auto;
+  }
+  
+  header nav.open {
+    transform: translateX(0);
+  }
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -226,4 +274,17 @@ main{
         padding: 50px 200px ;
         max-width: none;
     }
+    .mygtukas {
+        display: none;
+      }
+    
+      header nav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        transform: none;
+        background-color: transparent;
+        gap: 40px; 
+        padding: 0;
+      }
 }
