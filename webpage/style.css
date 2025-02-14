@@ -27,7 +27,7 @@ header {
     top: 70px;           
     right: 0;
     background-color: #333;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 20px;  
     padding: 10px 20px;
@@ -54,6 +54,7 @@ header {
   
   header nav.open {
     transform: translateX(0);
+    display: flex;
   }
 
 #container {
@@ -309,4 +310,6 @@ main{
         gap: 40px; 
         padding: 0;
       }
+
+
 }
