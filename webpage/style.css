@@ -12,8 +12,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #262631;
+    background-color: var(--background-header);
     padding: 10px 20px;
+
   }
   
   header img {
