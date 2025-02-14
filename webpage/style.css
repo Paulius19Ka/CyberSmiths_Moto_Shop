@@ -57,18 +57,10 @@ header {
   }
 
 #container {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-
   gap: 20px;
-
 }
 
 .card {
