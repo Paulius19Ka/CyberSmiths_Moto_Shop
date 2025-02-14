@@ -115,7 +115,7 @@ header {
     display: flex;
     justify-content: center;
 
-    max-width: 575px;
+    /* max-width: 575px; */
 
     background-color: var(--background-header);
     color: var(--font-main);
@@ -128,17 +128,36 @@ header {
     align-content: center;
     flex-flow: column;
 
-    max-width: 575px;
+    /* max-width: 575px; */
     padding: 10px;
 
     background-color: var(--background-main);
     color: var(--font-main);
+
+    > .returnToMainPage{
+        > p > a{
+            font-size: 30px;
+            padding: 15px;
+            color: var(--font-main);
+            text-decoration: none;
+            border: 5px solid var(--font-main);
+            border-radius: 10px;
+            background-color: var(--background-footer);
+        }
+        > p > a:hover{
+            background-color: var(--background-card);
+        }
+        
+        display: flex;
+        margin: 50px;
+        justify-content: center;
+    }
 }
 .footerAboutUs{
     background-color: var(--background-footer);
     color: var(--font-main) ;
 
-    max-width: 575px;
+    /* max-width: 575px; */
     padding: 10px;
 
     display: flex;
@@ -151,10 +170,12 @@ header {
     }
 }
 .footerLinksAboutUs{
-    width: 555px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 15px;
+    
 
     > a{
         color: var(--font-main);
