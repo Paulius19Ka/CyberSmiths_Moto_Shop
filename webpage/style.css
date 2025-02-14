@@ -7,47 +7,60 @@
   }
   
   header img {
-    height: 50px;
+    height: 50px; 
     width: auto;
   }
   
-  nav {
+  header nav {
+    position: absolute;
+    top: 70px;           
+    right: 0;
+    background-color: #333;
     display: flex;
-    gap: 60px; 
+    flex-direction: column;
+    gap: 20px;  
+    padding: 10px 20px;
+    transform: translateX(100%); 
+    transition: transform 0.3s ease;
   }
   
-  nav a {
+  header nav a {
     color: #ffffff;
     text-decoration: none;
   }
   
   .mygtukas {
-    display: none; 
     background: none;
     border: none;
     cursor: pointer;
+    padding: 5px;
   }
   
   .mygtukas img {
-    width: 30px;
+    width: 30px;  
     height: auto;
   }
   
-  @media (max-width: 768px) {
-    .mygtukas {
-      display: block;
-    }
-  
-    nav {
-      position: absolute; 
-      top: 70px;
-      right: 0;
-      background-color: #333;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 10px 20px;
-      transform: translateX(100%); 
-      transition: transform 0.0s
-    }
-  
+  header nav.open {
+    transform: translateX(0);
   }
+  
+  @media (min-width: 769px) {
+    .mygtukas {
+      display: none;
+    }
+  
+    header nav {
+      position: static;
+      transform: none;
+      background-color: transparent;
+      flex-direction: row;
+      gap: 40px; 
+      padding: 0;
+    }
+  
+    header nav.open {
+      transform: none;
+    }
+  }
+  
