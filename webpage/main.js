@@ -13,3 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Klaida', error));
 });
+
+//komentaras
