@@ -9,7 +9,7 @@
             "variklioGalia": "131kw",
             "spalva": "juoda",
             "rida": 180000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00001.jpeg"
+            "nuotrauka": "./foto/image00001.jpeg"
         },{
             "id": "002",
             "pavadinimas": "HONDA CBR600RR",
@@ -19,7 +19,7 @@
             "variklioGalia": "87kw",
             "spalva": "balta",
             "rida": 800000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00002.jpeg"
+            "nuotrauka": "./foto/image00002.jpeg"
         },{
             "id": "004",
             "pavadinimas": "HONDA CBR1000RR",
@@ -29,7 +29,7 @@
             "variklioGalia": "131kw",
             "spalva": "Ivairiaspalve",
             "rida": 23000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00004.jpeg"
+            "nuotrauka": "./foto/image00004.jpeg"
         },{
             "id": "005",
             "pavadinimas": "HONDA CBR1000RR",
@@ -39,7 +39,7 @@
             "variklioGalia": "131kw",
             "spalva": "Ivairiaspalve",
             "rida": 42000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00005.jpeg"
+            "nuotrauka": "./foto/image00005.jpeg"
         },{
             "id": "006",
             "pavadinimas": "HONDA CBR500RA",
@@ -49,7 +49,7 @@
             "variklioGalia": "35kw",
             "spalva": "Ivairiaspalve",
             "rida": 56000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00007.jpeg"
+            "nuotrauka": "./foto/image00007.jpeg"
         },{
             "id": "007",
             "pavadinimas": "HONDA CBR600RR",
@@ -59,7 +59,7 @@
             "variklioGalia": "88kw",
             "spalva": "Ivairiaspalve",
             "rida": 14000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/image00008.jpeg"
+            "nuotrauka": "./foto/image00008.jpeg"
         },{
             "id": "008",
             "pavadinimas": "Husqvarna 450FE",
@@ -69,7 +69,7 @@
             "variklioGalia": "45kw",
             "spalva": "Ivairiaspalve",
             "rida": 4000,
-            "nuotrauka": "file:///C:/Users/Hp/Desktop/typescript26/CyberSmiths_Moto_Shop/foto/IMG_8406.jpeg"
+            "nuotrauka": "./foto/IMG_8406.jpeg"
         }
     ]
 }

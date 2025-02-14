@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="./main.js" type="module"></script>
     <title>CyberSmiths Moto Shop</title>
 </head>
@@ -11,15 +12,44 @@
     <header>
         <img src="./images.png" alt="logo">
         <nav>
-            <a href="#">Vehicle</a>
-            <a href="#">About us</a>
-            <a href="#">Contacts</a>
+            <a href="#forSale">Vehicle</a>
+            <a href="./AboutUs.html">About us</a>
+            <a href="#footerLinks">Contacts</a>
         </nav>
         <button class="mygtukas">
             <img src="./menu.png">
         </button>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section id="hero">
+            <div class="heroDiv">
+                <h2>CyberSmiths</h2>
+                <p>Mes esame CyberSmiths. Mes siekiame padėti motociklų entuziastams atrasti jų svajonių transporto priemonę.</p>
+            </div>
+            <div class="heroPhoto">
+                <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg" alt="Smith CEO Saimono photo">
+            </div>
+        </section>
+        <section id="forSale"> <!--korteles atvaizduojam čia aaa-->
+            <h2>Turimi motociklai</h2>
+            <div id="container"></div>
+        </section>
+    </main>
+    <footer id="footerLinks">
+        <div>
+            <div>
+                <a href="#header"><i class="bi bi-arrow-up-square-fill"></i></a>
+            </div>
+            <div>
+                <span>Copyright © 2025 CyberSmithts</span>
+            </div>
+            <div class="socialContacts">
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                <a href="https://x.com/home?lang=en"><i class="bi bi-twitter"></i></a>
+                <a href="https://lt.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
