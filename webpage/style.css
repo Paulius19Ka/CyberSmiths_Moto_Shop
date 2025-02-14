@@ -63,7 +63,7 @@ header {
 }
 
 .card {
-    background: rgb(224, 223, 223);
+    background: #e0dfdf;
     border-radius: 10px;
     padding: 15px;
     width: 250px;
@@ -252,6 +252,127 @@ main{
             }
         }
     }
+}
+
+/* Modalas */
+dialog{
+    max-width: 90%;
+    height: fit-content;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--font-main);
+    > div{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        > h2, h3, p{
+            margin: 0;
+        }
+        > h3{
+            font-size: 26px;
+            color: var(--background-main);
+        }
+        > h2{
+            font-size: 22px;
+            color: var(--background-card);
+        }
+        > p{
+            margin: 0 auto;
+            font-size: 18px;
+            color: var(--background-footer);
+            padding: 10px 0px;
+        }
+        > img{
+            width: 400px;
+            border-radius: 10px;
+            max-height: 600px;
+            object-fit: cover;
+        }
+        > form{
+            display: grid;
+            grid-template: 1fr 1fr / 4fr 1fr;
+            
+            > label{
+                grid-area: 1 / 1 / 2 / 3;
+                text-align: center;
+                font-size: 18px;
+                color: var(--background-footer);
+            }
+            > input{
+                padding: 5px 10px;
+                width: 100%;
+                font-size: 18px;
+                border: none;
+                background-color: var(--background-card);
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                transition: linear 0.2s;
+            }
+            > #email{
+                background-color: #f0f0f0;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            > #email:hover{
+                cursor: text;
+                background-color: #e3e3e3;
+                color: black;
+            }
+            > #email:focus{
+                outline: none;
+                border: none;
+                
+            }
+            > input:hover{
+                cursor: pointer;
+                background-color: var(--background-header);
+                color: var(--font-main);
+            }
+        }
+        > button{
+            padding: 5px 10px;
+            font-size: 18px;
+            border: none;
+            background-color: var(--background-card);
+            border-radius: 5px;
+            transition: linear 0.2s;
+        }
+        > button:hover{
+            cursor: pointer;
+            background-color: var(--background-header);
+            color: var(--font-main);
+        }
+    }
+    .confirmModal{
+        /* min-width: 400px; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        > h2{
+            color: var(--background-footer);
+            font-size: 26px;
+            text-align: center;
+        }
+        > input{
+            padding: 5px 10px;
+            font-size: 18px;
+            border: none;
+            background-color: var(--background-card);
+            border-radius: 5px;
+            transition: linear 0.2s;
+        }
+        > input:hover{
+            cursor: pointer;
+            background-color: var(--background-header);
+            color: var(--font-main);
+        }
+    }
+}
+dialog:-internal-dialog-in-top-layer::backdrop{
+    background: #00000099;
 }
 
 /* Tablet/desktop */
