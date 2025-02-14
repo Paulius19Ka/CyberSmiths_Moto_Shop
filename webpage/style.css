@@ -59,6 +59,7 @@ header {
 
 #forSale {
     padding: 20px 0px;
+    min-height: 600px;
 }
 
 #container {
