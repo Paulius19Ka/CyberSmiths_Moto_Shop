@@ -66,9 +66,8 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    overflow-y: none;
-
-    width: 90%;
+    overflow-y: hidden;
+    
     gap: 20px;
     padding: 20px;
 }
