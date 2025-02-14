@@ -38,4 +38,4 @@ class Card{
 }
 export default Card;
 
-//komentaras
+//komentarassss
