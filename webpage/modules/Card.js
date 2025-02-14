@@ -32,7 +32,6 @@ class Card{
         daugiau.addEventListener('click', () => {
         })
 
-
         cardDiv.append(foto, pavadinimas, kaina, daugiauInfo, daugiau);
         return cardDiv;
     }
