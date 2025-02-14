@@ -310,16 +310,16 @@ dialog{
             margin: 0;
         }
         > h3{
-            font-size: 26px;
+            font-size: 22px;
             color: var(--background-main);
         }
         > h2{
-            font-size: 22px;
+            font-size: 18px;
             color: var(--background-card);
         }
         > p{
             margin: 0 auto;
-            font-size: 18px;
+            font-size: 14px;
             color: var(--background-footer);
             padding: 10px 0px;
         }
@@ -336,13 +336,13 @@ dialog{
             > label{
                 grid-area: 1 / 1 / 2 / 3;
                 text-align: center;
-                font-size: 18px;
+                font-size: 14px;
                 color: var(--background-footer);
             }
             > input{
                 padding: 5px 10px;
                 width: 100%;
-                font-size: 18px;
+                font-size: 14px;
                 border: none;
                 background-color: var(--background-card);
                 border-top-right-radius: 5px;
@@ -372,7 +372,7 @@ dialog{
         }
         > button{
             padding: 5px 10px;
-            font-size: 18px;
+            font-size: 14px;
             border: none;
             background-color: var(--background-card);
             border-radius: 5px;
