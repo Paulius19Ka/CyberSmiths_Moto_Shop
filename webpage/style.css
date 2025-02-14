@@ -73,8 +73,6 @@ header {
     width: 250px;
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-
-    flex-shrink: 0;
 }
 
 .card img {
@@ -294,9 +292,10 @@ main{
     }
     #container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
     }
     .card {
         background: rgb(224, 223, 223);
@@ -305,6 +304,8 @@ main{
         width: 250px;
         text-align: center;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+        flex-shrink: 0;
     }
     .headerAboutUs{
         padding: 50px 200px ;
