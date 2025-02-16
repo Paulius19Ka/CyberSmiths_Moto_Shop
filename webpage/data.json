@@ -7,7 +7,7 @@
             "metai": "2006",
             "variklioTuris": "999cc",
             "variklioGalia": "131kw",
-            "spalva": "juoda",
+            "spalva": "Juoda",
             "rida": 180000,
             "nuotrauka": "./foto/image00001.jpeg"
         },{
@@ -17,7 +17,7 @@
             "metai": "2004",
             "variklioTuris": "600cc",
             "variklioGalia": "87kw",
-            "spalva": "balta",
+            "spalva": "Balta",
             "rida": 800000,
             "nuotrauka": "./foto/image00002.jpeg"
         },{
@@ -27,7 +27,7 @@
             "metai": "2010",
             "variklioTuris": "999cc",
             "variklioGalia": "131kw",
-            "spalva": "Ivairiaspalve",
+            "spalva": "Įvairiaspalvė",
             "rida": 23000,
             "nuotrauka": "./foto/image00004.jpeg"
         },{
@@ -37,7 +37,7 @@
             "metai": "2009",
             "variklioTuris": "999cc",
             "variklioGalia": "131kw",
-            "spalva": "Ivairiaspalve",
+            "spalva": "Įvairiaspalvė",
             "rida": 42000,
             "nuotrauka": "./foto/image00005.jpeg"
         },{
@@ -47,7 +47,7 @@
             "metai": "2016",
             "variklioTuris": "500cc",
             "variklioGalia": "35kw",
-            "spalva": "Ivairiaspalve",
+            "spalva": "Įvairiaspalvė",
             "rida": 56000,
             "nuotrauka": "./foto/image00007.jpeg"
         },{
@@ -57,7 +57,7 @@
             "metai": "2014",
             "variklioTuris": "600cc",
             "variklioGalia": "88kw",
-            "spalva": "Ivairiaspalve",
+            "spalva": "Įvairiaspalvė",
             "rida": 14000,
             "nuotrauka": "./foto/image00008.jpeg"
         },{
@@ -67,7 +67,7 @@
             "metai": "2017",
             "variklioTuris": "450cc",
             "variklioGalia": "45kw",
-            "spalva": "Ivairiaspalve",
+            "spalva": "Įvairiaspalvė",
             "rida": 4000,
             "nuotrauka": "./foto/IMG_8406.jpeg"
         }
