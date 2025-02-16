@@ -290,7 +290,7 @@ main{
     }
 }
 
-/* Modalas */
+/* Modalai */
 dialog{
     max-width: 90%;
     height: fit-content;
@@ -416,8 +416,40 @@ dialog:-internal-dialog-in-top-layer::backdrop{
     background: #00000099;
 }
 
+.heroModal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    > img{
+        width: 450px;
+        border-radius: 10px;
+    }
+    > button{
+        padding: 5px 10px;
+        font-size: 14px;
+        border: none;
+        background-color: var(--background-card);
+        border-radius: 5px;
+        transition: linear 0.2s;
+    }
+    > button:hover{
+        cursor: pointer;
+        background-color: var(--background-header);
+        color: var(--font-main);
+    }
+}
+.heroPhoto{
+    cursor: pointer;
+}
+
 /* Tablet/desktop */
 @media (min-width: 769px){
+    .heroModal{
+        > img{
+            width: 600px;
+            border-radius: 10px;
+        }
+    }
     #footerLinks{
         height: 80px;
         a{
