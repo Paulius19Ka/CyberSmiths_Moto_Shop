@@ -1,3 +1,5 @@
+import HeroModal from "./HeroModal.js";
+
 class CardModal{
     constructor(nuotrauka, pavadinimas, kaina, metai, variklioTuris, variklioGalia, spalva, rida){
         this.nuotrauka = nuotrauka;
@@ -20,7 +22,10 @@ class CardModal{
         const foto = document.createElement('img');
         foto.src = this.nuotrauka;
         foto.alt = `${this.pavadinimas} foto`;
-        // foto.setAttribute('width', '500px');
+        foto.classList.add('pointer');
+        foto.addEventListener('click', e =>{
+            new HeroModal(this.nuotrauka, this.pavadinimas);
+        })
 
         const pavadinimas = document.createElement('h3');
         pavadinimas.textContent = this.pavadinimas;
