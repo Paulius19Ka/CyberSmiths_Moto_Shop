@@ -3,6 +3,7 @@
 
     --background-header: #3A397B;
     --background-main: #1E1D57;
+    --background-termsModal: #1e1d57c6;
     --background-footer: #171645;
     --font-main: #ffffff;
     --background-card: #9a98ff;
@@ -448,6 +449,20 @@ dialog:-internal-dialog-in-top-layer::backdrop{
         background-color: var(--background-header);
         color: var(--font-main);
     }
+}
+.tosModal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    > div{
+        flex-direction: row;
+    }
+    > p{
+        padding: 20px;
+    }
+}
+.tosModal:-internal-dialog-in-top-layer::backdrop{
+    background: var(--background-termsModal);
 }
 .heroPhoto, .pointer{
     cursor: pointer;
