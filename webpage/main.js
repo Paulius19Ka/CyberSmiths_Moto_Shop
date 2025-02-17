@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const heroPhoto = document.querySelector('#heroPhoto');
         heroPhoto.addEventListener('click', e => {
             new HeroModal(e.target.src, e.target.alt);
-            // console.dir(e.target);
         })
     })
     .catch(error => console.error('Klaida', error));
