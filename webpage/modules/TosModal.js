@@ -32,7 +32,7 @@ class TosModal{
         const disagreeButton = document.createElement('button');
         disagreeButton.textContent = 'Nesutinku';
         disagreeButton.addEventListener('click', () => {
-            window.location.href = "./AboutUs.html";
+            window.location.href = "./ToS.html";
         });
         buttonWrapper.append(agreeButton, disagreeButton);
         modal.append(terms, buttonWrapper);

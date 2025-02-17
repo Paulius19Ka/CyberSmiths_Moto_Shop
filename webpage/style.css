@@ -468,6 +468,47 @@ dialog:-internal-dialog-in-top-layer::backdrop{
     cursor: pointer;
 }
 
+.tosHeader{
+    display: none;
+}
+
+.tosFooter{
+    display: none;
+}
+.tosMain{
+    padding: 50px;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: var(--background-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    > .tosDiv{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        > .tosReturn > a{
+            font-size: 30px;
+            padding: 15px;
+            color: var(--font-main);
+            text-decoration: none;
+            border: 5px solid var(--font-main);
+            border-radius: 10px;
+            background-color: var(--background-footer);
+        }
+        > .tosReturn > a:hover{
+            background-color: var(--background-card);
+        }
+    }
+    
+    
+}
 /* Tablet/desktop */
 @media (min-width: 769px){
     .heroModal{
