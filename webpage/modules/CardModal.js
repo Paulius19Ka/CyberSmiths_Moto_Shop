@@ -57,7 +57,7 @@ class CardModal{
 
         const contactSubmit = document.createElement('input');
         contactSubmit.setAttribute('type', 'submit');
-        contactSubmit.setAttribute('value', 'Send');
+        contactSubmit.setAttribute('value', 'Siųsti');
         contactSubmit.addEventListener('click', e => {
             e.preventDefault();
 

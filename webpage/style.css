@@ -211,6 +211,10 @@ header {
     > a{
         color: var(--font-main);
         text-decoration: none;
+        transition: 0.2s;
+    }
+    > a:hover{
+        color: var(--background-card);
     }
 }
 body{
@@ -224,7 +228,6 @@ body{
 
     height: 100px;
     width: 100%;
-    
     > div{
         height: 100%;
         padding: 0px 20px;
@@ -235,6 +238,9 @@ body{
         > .socialContacts{
             display: flex;
             gap: 10px;
+        }
+        > div:nth-child(1){
+            width: 110px;
         }
     }
     a{
@@ -284,7 +290,10 @@ main{
                 object-fit: cover;
                 object-position: bottom;
                 border-radius: 10px;
-                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+                transition: 0.4s;
+            }
+            > img:hover{
+                box-shadow: 0px 3px 20px var(--background-footer);
             }
         }
     }
