@@ -158,7 +158,7 @@ header {
     flex-flow: column;
     gap: 50px;
 
-    /* min-height: 800px; */
+    min-height: 800px;
 
     /* max-width: 575px; */
     padding: 10px;
